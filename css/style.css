@@ -179,6 +179,11 @@ img {
         font-size: 3rem;
     }
 
+    h2 {
+
+        font-size: 2.5rem;
+    }
+
     .steps .col img,
     .lessons .col img {
         height: 250px;
