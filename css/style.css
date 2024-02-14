@@ -128,26 +128,27 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
     
-@media screen {
+@media (max-width: 1280px) {
     * {
-        
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 1200px;
+        width: 100%;
+
     }
 }
 
 
- @media screen and (max-width: 768px) {
+ @media (max-width: 780px) {
 
     .container {
         max-width: 768px;
-        background: none;
+        
     }
 
-    .site-header {
-        background-color: red;
-    }
 
  }
