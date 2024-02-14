@@ -166,12 +166,33 @@ img {
         gap: 32px;
     }
 
-    .lessons .col {
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right {
 
         width: 100%;
     }
 
-    .steps .col {
+    h1 {
+
+        font-size: 3rem;
+    }
+
+    .steps .col img,
+    .lessons .col img {
+        height: 250px;
+        margin-bottom: 3rem;
+    }
+
+    .text-center p {
+        font-size: 20px;
+        padding: 0 20px;
+    }
+ }
+
+
+     /* .steps .col {
 
         width: 100%;
     }
@@ -184,10 +205,4 @@ img {
     .why-us .col-right {
 
         width: 100%;
-    }
-
-    h1 {
-
-        font-size: 3rem;
-    }
- }
+    } */
